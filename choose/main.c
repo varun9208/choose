@@ -6,13 +6,16 @@
 //  Copyright (c) 2013 Varun. All rights reserved.
 //
 
-#include <stdio.h>
-
-int main(int argc, const char * argv[])
-{
-
-    // insert code here...
-    printf("Hello, World!\n");
+#include<stdio.h>
+int main(){
+    void (*p)();
+    int (*q)();
+    int (*r)();
+    p = clrscr();
+    q = getch();
+    r = puts;
+    (*p)();
+    (*r)("cquestionbank.blogspot.com");
+    (*q)();
     return 0;
 }
-
